@@ -1,15 +1,5 @@
 export const projects = [
   {
-    name: "duanleks",
-    description: "This site — personal project hub",
-    url: "https://duanleks.space",
-    logo: "/logos/duanleks.svg",
-    tags: ["hub", "personal"],
-    color: "#e8c547",
-    status: "active",
-    story: "The launchpad. You're already here."
-  },
-  {
     name: "LFranca",
     description: "Personal site & portfolio",
     url: "https://www.lfranca.com/",
@@ -88,5 +78,15 @@ export const projects = [
     color: "#60a5fa",
     status: "active",
     story: "Because search should be yours."
+  },
+  {
+    name: "duanleks",
+    description: "This site — personal project hub",
+    url: "https://duanleks.space",
+    logo: "/logos/duanleks.svg",
+    tags: ["hub", "personal"],
+    color: "#e8c547",
+    status: "active",
+    story: "The launchpad. You're already here."
   },
 ];

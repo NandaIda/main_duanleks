@@ -220,7 +220,7 @@
 
   .hero-name {
     font-family: 'Syne', sans-serif;
-    font-size: clamp(48px, 8vw, 88px);
+    font-size: clamp(36px, 8vw, 88px);
     font-weight: 800;
     letter-spacing: -0.03em;
     color: var(--text-primary);
