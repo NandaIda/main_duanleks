@@ -89,4 +89,24 @@ export const projects = [
     status: "active",
     story: "The launchpad. You're already here."
   },
+  {
+    name: "Fit Piece",
+    description: "Browser jigsaw puzzle with online co-op",
+    url: "https://jigsaw.duanleks.space",
+    logo: null,
+    tags: ["game", "puzzle", "multiplayer"],
+    color: "#38bdf8",
+    status: "active",
+    story: "A jigsaw that feels like a real table — build sections anywhere, merge groups, snap pieces naturally. Upload your own image or solve together in online co-op."
+  },
+  {
+    name: "kboard",
+    description: "AI-powered mechanical keyboard sound simulator",
+    url: "https://kboard.quest",
+    logo: null,
+    tags: ["ai", "audio", "tool"],
+    color: "#a3e635",
+    status: "active",
+    story: "Real keyboard switch samples — Cherry Blue, IBM, and more. For when you want the sound without the clicks disturbing everyone."
+  },
 ];
