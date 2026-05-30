@@ -135,3 +135,16 @@ body::after {
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: var(--bg-base); }
 ::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 2px; }
+
+@media (max-width: 640px) {
+  body::after {
+    display: none;
+  }
+  body::before {
+    display: none;
+  }
+  .fade-up {
+    animation-duration: 0.2s;
+    animation-delay: 0ms !important;
+  }
+}

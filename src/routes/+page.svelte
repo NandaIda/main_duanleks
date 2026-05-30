@@ -162,6 +162,12 @@
     left: -150px;
   }
 
+  @media (max-width: 640px) {
+    .bg-blob {
+      display: none;
+    }
+  }
+
   .page-inner {
     position: relative;
     z-index: 1;
