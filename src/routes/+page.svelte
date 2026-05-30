@@ -40,6 +40,20 @@
 <svelte:head>
   <title>duanleks.space</title>
   <meta name="description" content="DuanLeks — personal space. Tools, experiments, and projects." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://duanleks.space/" />
+  <meta property="og:title" content="duanleks.space" />
+  <meta property="og:description" content="DuanLeks — personal space. Tools, experiments, and projects." />
+  <meta property="og:url" content="https://duanleks.space/" />
+  <meta property="og:type" content="website" />
+  {@html `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "DuanLeks",
+    "url": "https://duanleks.space",
+    "sameAs": ["https://github.com/NandaIda"],
+    "mainEntityOfPage": { "@type": "WebPage", "@id": "https://duanleks.space/" }
+  })}</script>`}
 </svelte:head>
 
 <main>

@@ -101,12 +101,12 @@ export const projects = [
   },
   {
     name: "kboard",
-    description: "AI-powered mechanical keyboard sound simulator",
+    description: "Touch typing practice — master the keyboard level by level",
     url: "https://kboard.quest",
     logo: "/logos/kboard.svg",
-    tags: ["ai", "audio", "tool"],
+    tags: ["typing", "education", "tool"],
     color: "#a3e635",
     status: "active",
-    story: "Real keyboard switch samples — Cherry Blue, IBM, and more. For when you want the sound without the clicks disturbing everyone."
+    story: "Level-based typing lessons from home row to full keyboard mastery. Track WPM, accuracy, and XP as you progress."
   },
 ];
